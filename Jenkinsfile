@@ -69,7 +69,7 @@ pipeline {
 
                     // Save the .jar file as a "build artifact"
 
-                    archiveArtifacts artifacts: 'target/\.jar', fingerprint: true
+                    archiveArtifacts artifacts: 'target/*.jar', fingerprint: true
 
                 }
 
